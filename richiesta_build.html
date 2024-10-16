@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L-G Builds || Build Custom</title>
+    <link rel="stylesheet" href="custom-style.css">
+    <link rel="stylesheet" href="headerfooter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <img src="Media\\logo.png">
+        <a class="start" href="index.html"><i class="fas fa-home"></i> Home</a>
+        <a class="start" href="index.html#b"><i class="fas fa-laptop"></i> Le nostre builds</a>
+        <a class="start" href="chisiamo.html"><i class="fas fa-users"></i> Chi siamo?</a>
+        <a class="start" href="contatta.html"><i class="fas fa-envelope"></i> Contattaci!</a>
+    </header>
+
+    <div id="a">
+        <h1>Consulenza computer custom</h1>
+        <form method="post" action="contact.php">
+            <p>Nome:</p>
+            <input type="text" class="b" name="nome" required>
+
+            <p>Cognome:</p>
+            <input type="text" class="b" name="cognome" required>
+
+            <p>Email:</p>
+            <input type="email" class="b" name="email" required>
+
+            <p>Telefono (non obbligatorio):</p>
+            <input type="tel" class="b" value="+39" name="cel">
+
+            <p>Range di prezzo:</p>
+            <input type="range" id="priceRange" name="priceRange" min="0" max="5000" step="10" value="500"
+                oninput="updatePrice(this.value)" class="b" required>
+            <span id="c">€1000</span>
+
+            <input type="submit" value="Invia Richiesta" class="d">
+
+            <script>
+                function updatePrice(value) {
+                    document.getElementById('c').textContent = '€' + value;
+                }
+            </script>
+        </form>
+    </div>
+
+    <footer>
+        <div class="sociallink">
+            <h3>L-G Builds</h3>
+            <p>Scopri le migliori configurazioni per il tuo PC gaming. Seguici sui social per rimanere aggiornato!
+            </p>
+            <ul class="socials">
+                <li><a href="https://www.facebook.com" target="_blank" class="facebook">
+                        <i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.twitter.com" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li><a href="https://www.instagram.com" target="_blank" class="instagram"><i
+                            class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.youtube.com" target="_blank" class="youtube"><i class="fab fa-youtube"></i></a>
+                </li>
+                <li><a href="https://www.twitch.tv" target="_blank" class="twitch"><i class="fab fa-twitch"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div class="diritti">
+            <p>&copy; 2024 L-G Builds. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

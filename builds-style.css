@@ -1,0 +1,89 @@
+@font-face {
+    font-family: jetbrains;
+    src: url("Media\\JetBrainsMono-Bold.woff2");
+}
+
+body {
+    background-color: darkslategray;
+    margin: 0;
+    padding: 0;
+}
+
+#a {
+    display: flex;
+    flex-direction: row;
+    padding: 100px 0px;
+    padding-left: 150px;
+}
+
+#a img {
+    width: 35%;
+    height: 35%;
+}
+
+.b {
+    color: white;
+    padding-left: 280px;
+    padding-top: 50px;
+}
+
+.b li {
+    font-size: 30px;
+}
+
+.b h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #ffa500;
+}
+
+.c {
+    color: #ffa500;
+    padding-left: 150px;
+}
+
+#d {
+    display: flex;
+    flex-direction: row;
+}
+
+#d h2 {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 0px 210px;
+}
+
+#e {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+}
+
+#e table {
+    border-style: solid;
+    border-color: #ffa500;
+    border-width: 2px;
+    border-collapse: collapse;
+    margin: 10px 10px;
+    width: 30%;
+}
+
+#e th {
+    text-align: center;
+    padding: 10px 0px;
+    border-style: solid;
+    border-color: #ffa500;
+    border-width: 1px;
+
+}
+
+#e td {
+    text-align: center;
+    padding: 10px 0px;
+    border-style: solid;
+    border-color: #ffa500;
+    border-width: 1px;
+}

@@ -1,0 +1,170 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 203px;
+    background-image: url('Media\\techcoso.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#a h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin: 0;
+    font-family: jetbrains;
+}
+
+#b {
+    background-image: url('BuildsMedia\\Mid.png');
+    background-size: cover;
+    background-position: center;
+    height: 670px;
+    width: 100%;
+}
+
+#b h1 {
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-size: 40px;
+    font-family: jetbrains;
+}
+
+#f {
+    background-image: url('BuildsMedia\\Low.png');
+    background-size: cover;
+    background-position: center;
+    height: 670px;
+    width: 100%;
+}
+
+#f h1 {
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-size: 40px;
+    font-family: jetbrains;
+}
+
+#g {
+    background-image: url('BuildsMedia\\Top.png');
+    background-size: cover;
+    background-position: center;
+    height: 670px;
+    width: 100%;
+}
+
+#g h1 {
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-size: 40px;
+    font-family: jetbrains;
+}
+
+.c {
+    color: white;
+    padding-left: 440px;
+}
+
+.c li {
+    font-size: 20px;
+}
+
+.c h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.d {
+    color: white;
+    padding-right: 60px;
+}
+
+.d li {
+    font-size: 20px;
+}
+
+.d h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.e {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+#buildcustom {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#buildcustom h2 {
+    font-family: jetbrains;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#buildcustom p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#bottonerq {
+    background-color: #ff5722;
+    color: white;
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.c h3 {
+    background-image: url(Media/IntelButton.png);
+    padding-top: 15px;
+    color: white;
+    font-family: jetbrains;
+    text-align: center;
+    border-radius: 8px;
+    height: 50px;
+    width: 200px;
+}
+
+.c a {
+    text-decoration: none;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.d h3 {
+    background-image: url(Media/AmdButton.png);
+    padding-top: 15px;
+    color: white;
+    font-family: jetbrains;
+    text-align: center;
+    border-radius: 8px;
+    height: 50px;
+    width: 200px;
+}
+
+.d a {
+    text-decoration: none;
+    margin-top: auto;
+    margin-bottom: auto;
+}

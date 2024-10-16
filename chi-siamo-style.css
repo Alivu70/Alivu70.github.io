@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: darkslategray;
+}
+
+#a {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#storia {
+    background-color: #fff;
+    padding: 40px;
+}
+
+#storia h2 {
+    color: #ffa500;
+}
+
+#storia p {
+    font-size: 18px;
+    line-height: 1.6;
+}
